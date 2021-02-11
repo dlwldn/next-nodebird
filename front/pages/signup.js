@@ -69,7 +69,7 @@ const Signup = () => {
 
         <div>
           <Checkbox name="user-term" checked={term} onChange={onChangeTerm}>약관에 동의합니다.</Checkbox>
-          {termError && <ErrorMessage style={{color: 'red'}}>약관에 동의하셔야합니다.</ErrorMessage>}
+          {termError && <ErrorMessage>약관에 동의하셔야합니다.</ErrorMessage>}
         </div>
         <div style={{marginTop: 10}}>
           <Button type="primary" htmlType="submit">가입하기</Button>
